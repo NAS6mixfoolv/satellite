@@ -5,7 +5,7 @@ https://nas6mixfoolv.github.io/solarsystem/
 https://nas6mixfoolv.github.io/satellite/
 
 Jupiter swing-by:
-https://github.com/NAS6mixfoolv/satellite/satellite05.gif
+![Jupiter swing-by orbit simulation](satellite05.gif)
 
 # NAS6LIB: A Versatile Mathematical Library for 3D Graphics and Celestial Mechanics
 
