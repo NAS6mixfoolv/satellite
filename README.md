@@ -20,15 +20,6 @@ Our **`satellite.htm`** demonstration showcases an **automatic contradiction res
 
 The core logic for resolving orbital element inconsistencies can be found in the `myCalc1` function within `satellite.js` on the `satellite.htm` page. This algorithm intelligently adjusts input parameters based on fundamental celestial mechanics, primarily Kepler's Third Law.
 
-### Automated Orbital Consistency
-
-NAS6LIB includes powerful tools for 3D graphics and mathematical computations. For celestial orbit simulations, a significant challenge is maintaining the physical consistency of orbital elements. Our **`satellite.htm`** demonstration showcases an **automatic contradiction resolution feature** that adjusts input orbital parameters to ensure physically stable and accurate orbits.
-
-
-#### The Orbital Element Consistency Algorithm (Conceptual Overview)
-
-The core logic for resolving orbital element inconsistencies can be found in the `myCalc1` function within `satellite.js` on the `satellite.htm` page. This algorithm intelligently adjusts input parameters based on fundamental celestial mechanics, primarily Kepler's Third Law.
-
 It operates in two main patterns, adapting to the provided input:
 
 **Pattern 1: Adjusting Radii based on Period and Masses**
