@@ -4,6 +4,9 @@ DEMO:
 https://nas6mixfoolv.github.io/solarsystem/
 https://nas6mixfoolv.github.io/satellite/
 
+Jupiter swing-by:
+https://github.com/NAS6mixfoolv/satellite/satellite05.gif
+
 # NAS6LIB: A Versatile Mathematical Library for 3D Graphics and Celestial Mechanics
 
 NAS6LIB is a robust and versatile JavaScript library engineered for **rigorous mathematical computations** in 3D graphics and celestial mechanics. It provides foundational tools for precise calculations related to vectors, matrices, and quaternions, essential for accurately modeling various physical phenomena.
