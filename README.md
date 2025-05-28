@@ -4,6 +4,19 @@ DEMO:
 https://nas6mixfoolv.github.io/solarsystem/
 https://nas6mixfoolv.github.io/satellite/
 
+# NAS6LIB: A Versatile Mathematical Library for 3D Graphics and Celestial Mechanics
+
+NAS6LIB is a robust and versatile JavaScript library engineered for **rigorous mathematical computations** in 3D graphics and celestial mechanics. It provides foundational tools for precise calculations related to vectors, matrices, and quaternions, essential for accurately modeling various physical phenomena.
+
+While NAS6LIB itself focuses on computational precision, its capabilities extend to complex applications. For instance, the **`satellite.htm`** demonstration, built upon NAS6LIB, offers a platform to **visually explore relativistic gravitational N-body problems**. This allows users to observe and understand how fundamental theories of relativity subtly yet profoundly influence orbital trajectories, such as Mercury's anomalous perihelion precession.
+
+---
+
+### Automated Orbital Consistency
+
+NAS6LIB includes powerful tools for 3D graphics and mathematical computations. For celestial orbit simulations, a significant challenge is maintaining the physical consistency of orbital elements. Our **`satellite.htm`** demonstration showcases an **automatic contradiction resolution feature** that adjusts input orbital parameters to ensure physically stable and accurate orbits.
+
+
 ### Automated Orbital Consistency
 
 NAS6LIB includes powerful tools for 3D graphics and mathematical computations. For celestial orbit simulations, a significant challenge is maintaining the physical consistency of orbital elements. Our **`satellite.htm`** demonstration showcases an **automatic contradiction resolution feature** that adjusts input orbital parameters to ensure physically stable and accurate orbits
