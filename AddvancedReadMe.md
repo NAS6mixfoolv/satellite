@@ -39,8 +39,6 @@ the eccentricity (`my1E = (my1RA2 - my1A1) / my1A1`) to ensure overall physical 
 ---
 
 # stellite.htm
-<div style="background:#4080b0;">
-<pre>
 
 ＜!-- load X3DOM !--＞
 ＜script language="JavaScript" type="text/javascript" src="./javascripts/x3dom/jquery-2.1.4.min.js"＞＜/script＞
@@ -74,17 +72,10 @@ hgroup, menu, nav, section { display: block; }
     border: 2px #000000 solid;
 }
 ＜/style＞
-
-
-</pre>
-</div>
-
+  
 The above is exactly what it looks like.
-
   
 # stellite.js  
-<div style="background:#4080b0;">
-<pre>
 
 //global position
 
@@ -133,17 +124,12 @@ var mpadj = new Array();
 var mp = new Array();
 //N6LRngKt
 var rk = new N6LRngKt();
-
-</pre>
-</div>
   
 The declaration in the global position is roughly as shown above.  
   
 ### Building and initializing N6LPlanet  
   
 # stellite.js  
-<div style="background:#4080b0;">
-<pre>
 
 ...
 
@@ -315,9 +301,6 @@ function setline() {
 
 ...
 
-</pre>
-</div>
-  
 Initialize N6LPlanet as above and reinitialize it as necessary.  
   
 
