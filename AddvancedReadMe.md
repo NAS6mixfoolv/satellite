@@ -4,6 +4,15 @@ This document provides detailed explanations of satellite.htm, advanced features
   
 ---
   
+### Table of contents  
+* [The Orbital Element Consistency Algorithm (Conceptual Overview)](#the-orbital-element-consistency-algorithm-conceptual-overview)  
+* [satellite.htm](#satellitehtm)  
+* [satellite.js](#satellitejs)  
+  * [Global Variable Declarations](#global-variable-declarations)  
+  * [Building and Initializing N6LPlanet](#building-and-initializing-n6lplanet)  
+  
+---
+  
 #### The Orbital Element Consistency Algorithm (Conceptual Overview)  
   
 The core logic for resolving orbital element inconsistencies can be found in the `myCalc1` function within `satellite.js` on the   `satellite.htm` page. This algorithm intelligently adjusts input parameters based on fundamental celestial mechanics,  
@@ -38,7 +47,7 @@ the eccentricity (`my1E = (my1RA2 - my1A1) / my1A1`) to ensure overall physical 
   
 ---
 
-# stellite.htm
+# satellite.htm
 <br>  
 ＜!-- load X3DOM !--＞<br>  
 <script language="JavaScript" type="text/javascript" src="./javascripts/x3dom/jquery-2.1.4.min.js"></script><br>  
@@ -74,7 +83,7 @@ hgroup, menu, nav, section { display: block; }<br>
 <br>    
 The above is exactly what it looks like.
   
-# stellite.js  
+# satellite.js  
 This JavaScript file manages the orbital simulation of multiple celestial bodies (planets and satellites)  
 and their 3D visualization on the web using X3DOM.  
   
