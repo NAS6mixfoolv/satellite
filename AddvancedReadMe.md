@@ -302,5 +302,97 @@ function setline() {
   
 Initialize N6LPlanet as above and reinitialize it as necessary.  
   
+# stellite.js  
+  
+function init(b) {  
+  Speed = Number(document.F1.SPD.value);  
+  if(b < 0) Speed *= -1;  
+  Zoom = Number(document.F1.ZOM.value);  
+  if(Zoom < 0.0) Zoom *= -1.0;  
+  
+  var radioList = document.getElementsByName("PUTSEL");  
+  var i;  
+  for(i = 0; i<radioList.length; i++){  
+      if(radioList[i].checked){  
+          id = Number(radioList[i].value) + 1;  
+          break;  
+      }  
+  }  
+  var v = new N6LVector(3);  
+  if(b) { ; }  
+  else {  
+    for(i = 0; i < planetnum; i++) {  
+      mp[i] = new N6LMassPoint(v.ZeroVec(), v.ZeroVec(), -1, -1, -1);  
+    }  
+  }  
+  
+  var msecPerMinute = 1000 * 60;  
+  var msecPerHour = msecPerMinute * 60;  
+  var msecPerDay = msecPerHour * 24;  
+  var days = eval(document.F1.myFormTIME.value) * 365.2425;  
+  dat = new Date(days * msecPerDay);  
+  setmp();  
+  setline();  
+  InitRelative();  
+  setmp();  
+  setline();  
+}  
+  
+function InitRelative() {  
+  var msecPerMinute = 1000 * 60;  
+  var msecPerHour = msecPerMinute * 60;  
+  var msecPerDay = msecPerHour * 24;  
+  var days = eval(document.F1.myFormTIME.value) * 365.2425;  
+  dat = new Date(days * msecPerDay);  
+  time = dat.getTime();  
+  PlanetInit(dat);  
+  setline();  
+  dt = Speed * 60 * 60;  
+  //Mass Point Array construction  
+  var pmp = new Array();  
+  var i;  
+  for(i = 0; i < planetnum; i++) pmp[i] = new N6LMassPoint(mp[i]);  
+  //Initialized N6LRngKt
+  rk.Init(pmp, dt);  
+  settime(dat);  
+}  
+  
+function onRunning() {  
+  //Main Loop  
+  UpdateFrameRelative();  
+}  
+  
+function UpdateFrameRelative() {  
+  var msecPerMinute = 1000 * 60;  
+  var msecPerHour = msecPerMinute * 60;  
+  var msecPerDay = msecPerHour * 24;  
+  
+  var dat1;  
+  var tm = Math.abs(Speed) * msecPerDay / 1000;  
+  var adt = Math.abs(dt);  
+  var t;  
+  var i;  
+  if(dt != 0.0) {  
+    for(t = adt; t <= tm; t += adt) {  
+      time = time + dt * 1000;  
+      //Update Mass Points  
+      rk.UpdateFrame()  
+  
+      //Sun origin correction  
+      for(i = 1; i < planetnum; i++) {  
+        rk.mp[i].x = rk.mp[i].x.Sub(rk.mp[0].x);  
+        mp[i].x = new N6LVector(rk.mp[i].x);  
+      }  
+      rk.mp[0].x = rk.mp[0].x.ZeroVec();  
+    }  
+    var datt = dat.getTime();  
+    var dat1t = datt + time;  
+    var dat1 = new Date(dat1t);  
+    setmp();  
+    settime();  
+  }   
+}  
+  
+The initialization and update of the N6LRngKt class is shown above.  
 
 
