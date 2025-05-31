@@ -42,9 +42,9 @@ the eccentricity (`my1E = (my1RA2 - my1A1) / my1A1`) to ensure overall physical 
 <br>  
 ＜!-- load X3DOM !--＞<br>  
 <script language="JavaScript" type="text/javascript" src="./javascripts/x3dom/jquery-2.1.4.min.js"></script><br>  
-<link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'><br>  
+＜link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'＞<br>  
 <script language="JavaScript" type='text/javascript' src='./javascripts/x3dom/x3dom-full.js'></script><br>  
-<link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'><br>  
+＜link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'＞<br>  
 <br>  
 ＜!-- load NAS6LIB !--＞<br>  
 <script language="JavaScript" type="text/javascript" src="./javascripts/nas6/common.js"></script><br>  
