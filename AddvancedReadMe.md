@@ -1,3 +1,9 @@
+# Advanced satellite Documentation  
+  
+This document provides detailed explanations of satellite.htm, advanced features, and detailed technical specifications.  
+  
+---
+  
 #### The Orbital Element Consistency Algorithm (Conceptual Overview)  
   
 The core logic for resolving orbital element inconsistencies can be found in the `myCalc1` function within `satellite.js` on the   `satellite.htm` page. This algorithm intelligently adjusts input parameters based on fundamental celestial mechanics,  
