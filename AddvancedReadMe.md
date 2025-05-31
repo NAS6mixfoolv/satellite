@@ -14,6 +14,7 @@ This document provides detailed explanations of satellite.htm, advanced features
 ---
   
 #### The Orbital Element Consistency Algorithm (Conceptual Overview)  
+[Table of contents](#table-of-contents)  
   
 The core logic for resolving orbital element inconsistencies can be found in the `myCalc1` function within `satellite.js` on the   `satellite.htm` page. This algorithm intelligently adjusts input parameters based on fundamental celestial mechanics,  
 primarily Kepler's Third Law.
@@ -48,6 +49,7 @@ the eccentricity (`my1E = (my1RA2 - my1A1) / my1A1`) to ensure overall physical 
 ---
 
 # satellite.htm
+[Table of contents](#table-of-contents)  
 <br>  
 ＜!-- load X3DOM !--＞<br>  
 <script language="JavaScript" type="text/javascript" src="./javascripts/x3dom/jquery-2.1.4.min.js"></script><br>  
@@ -84,10 +86,12 @@ hgroup, menu, nav, section { display: block; }<br>
 The above is exactly what it looks like.
   
 # satellite.js  
+[Table of contents](#table-of-contents)  
 This JavaScript file manages the orbital simulation of multiple celestial bodies (planets and satellites)  
 and their 3D visualization on the web using X3DOM.  
   
 # Global Variable Declarations 
+[Table of contents](#table-of-contents)  
 This section defines the configuration values, timers, object IDs, simulation control flags,  
 time management variables, physical constants, and custom class instances that are shared across the entire application.  
   
@@ -119,6 +123,7 @@ abstracted mass points used for gravitational calculations.
 ---  
   
 # Building and Initializing N6LPlanet  
+[Table of contents](#table-of-contents)  
   
 # PlanetInit(dat) Function  
 This function calculates and sets the initial position and velocity for each celestial body (N6LPlanet instance)  
