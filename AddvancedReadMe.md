@@ -39,40 +39,39 @@ the eccentricity (`my1E = (my1RA2 - my1A1) / my1A1`) to ensure overall physical 
 ---
 
 # stellite.htm
-
-＜!-- load X3DOM !--＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/x3dom/jquery-2.1.4.min.js"＞＜/script＞
-＜link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'＞
-＜script language="JavaScript" type='text/javascript' src='./javascripts/x3dom/x3dom-full.js'＞＜/script＞
-＜link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'＞
-
-＜!-- load NAS6LIB !--＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6/common.js"＞＜/script＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/timer.js"＞＜/script＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/vector.js"＞＜/script＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/matrix.js"＞＜/script＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/quaternion.js"＞＜/script＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/planet.js"＞＜/script＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/masspoint.js"＞＜/script＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/rngkt.js"＞＜/script＞
-＜!-- load own js !--＞
-＜script language="JavaScript" type="text/javascript" src="./javascripts/nas6/satellite.js"＞＜/script＞
-
-
-＜style＞
-article, aside, dialog, figure, footer, header,
-hgroup, menu, nav, section { display: block; }
-＜!-- X3DOM canvas style !--＞
-#x3dabs{
-    position: absolute;
-    float: left;
-    top: 420px;
-    left: 20px;
-    background-image:  url("./img/mimiback.png");
-    border: 2px #000000 solid;
-}
-＜/style＞
-  
+<br>  
+<!-- load X3DOM !--><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/x3dom/jquery-2.1.4.min.js"></script><br>  
+<link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'><br>  
+<script language="JavaScript" type='text/javascript' src='./javascripts/x3dom/x3dom-full.js'></script><br>  
+<link rel='stylesheet' type='text/css' href='./javascripts/x3dom/x3dom.css'><br>  
+<br>  
+<!-- load NAS6LIB !--><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6/common.js"></script><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/timer.js"></script><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/vector.js"></script><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/matrix.js"></script><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/quaternion.js"></script><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/planet.js"></script><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/masspoint.js"></script><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6lib/rngkt.js"></script><br>  
+<!-- load own js !--><br>  
+<script language="JavaScript" type="text/javascript" src="./javascripts/nas6/satellite.js"></script><br>  
+<br>  
+<style><br>  
+article, aside, dialog, figure, footer, header,<br>  
+hgroup, menu, nav, section { display: block; }<br>  
+<!-- X3DOM canvas style !--><br>  
+#x3dabs{<br>  
+    position: absolute;<br>  
+    float: left;<br>  
+    top: 420px;<br>  
+    left: 20px;<br>  
+    background-image:  url("./img/mimiback.png");<br>  
+    border: 2px #000000 solid;<br>  
+}<br>  
+</style><br>  
+<br>    
 The above is exactly what it looks like.
   
 # stellite.js  
