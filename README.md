@@ -3,6 +3,8 @@ How to use the Runge-Kutta method for numerical analysis of gravity-based many-b
 using JavaScript in NAS6LIB and how to use x3dom for displaying the results  
 LIB:  
 https://github.com/NAS6mixfoolv/NAS6LIB  
+WIKI:  
+https://github.com/NAS6mixfoolv/NAS6LIB/wiki/Physics-Simulations-(Kepler-&-Runge%E2%80%90Kutta)  
 DEMO:  
 https://nas6mixfoolv.github.io/NAS6LIB/  
 https://nas6mixfoolv.github.io/solarsystem/  
